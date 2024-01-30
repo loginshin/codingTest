@@ -1,5 +1,42 @@
 
+
 import java.util.Arrays;
+
+// public class Main {
+//     public static void main(String[] args) {
+
+//         Solution solution = new Solution();
+
+//         int[] bandage;
+//         int health;
+//         int[][] attacks;
+
+// //        bandage = new int[]{5,1,5};                          // 붕대 감기 스킬 : [시전 시간 , 초당 회복량 , 추가 회복량]
+// //        health = 30;                                         // 체력
+// //        attacks = new int [][]{{2,10},{9,15},{10,5},{11,5}}; // 공격 : [공격 시간, 피해량] (2차원 배열) ex [2, 10] : 2초에 10 데미지
+
+
+//         bandage = new int[]{3,2,7};                          // 붕대 감기 스킬 : [시전 시간 , 초당 회복량 , 추가 회복량]
+//         health = 20;                                         // 체력
+//         attacks = new int [][]{{1,15},{5,16},{8,6}}; // 공격 : [공격 시간, 피해량] (2차원 배열) ex [2, 10] : 2초에 10 데미지
+
+
+//         /*
+//         * 조건
+//         * 1. 최대 체력보다 커지는것은 불가능
+//         * 2. 기술을 쓰는 도중 몬스터에게 공격을 당하면 기술이 취소 됨
+//         * 3. 죽으면 -1을 Return
+//         * */
+
+//         //result = 5
+//         System.out.println(solution.solution(bandage, health, attacks));
+
+
+//         }
+
+// }
+
+
 
 
 class Solution{
