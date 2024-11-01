@@ -1,18 +1,13 @@
 function solution(myString, pat) {
-  let answer = 0;
+    let answer = 0;
     let myStringCharArr = myString.split('');
     let patCharArr = pat.split('');
     let chkCount = 0;
 
     for (let i = 0; i < myStringCharArr.length; i++) {
         if (myStringCharArr[i] === patCharArr[chkCount]) {
-
-            console.log(myStringCharArr[i], i);
-
             for (let l = 0; l < pat.length; l++) {
                 if (patCharArr[l] === myStringCharArr[i + l] ) {
-                    console.log(patCharArr[l]);
-                    console.log(myStringCharArr[i + l]);
                     chkCount++;
                 }
             }
